@@ -40,32 +40,8 @@ class Washer:
         print('Spyning dry at {} rpm´s'.format(speed))
 
 
-# In[56]:
 
-
-my_washer = Washer()
-
-
-# In[57]:
-
-
-print(my_washer)
-
-
-# In[58]:
-
-
-my_washer.wash(65.4)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
+if __name__=='__main__':
+    my_washer = Washer()
+    my_washer.wash(65.4)
 
